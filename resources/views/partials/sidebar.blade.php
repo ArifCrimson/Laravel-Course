@@ -9,18 +9,18 @@
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="icon-layout menu-icon"></i>
-              <span class="menu-title">UI Elements</span>
+              <span class="menu-title">Tasks and User</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="">Buttons</a></li>
+                {{-- <li class="nav-item"> <a class="nav-link" href="">Buttons</a></li>
                 <li class="nav-item"> <a class="nav-link" href="">Dropdowns</a></li>
-                <li class="nav-item"> <a class="nav-link" href="">Typography</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Typography</a></li> --}}
               </ul>
             </div>
           </li>
-          <li class="nav-item">
+          {{-- <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
               <i class="icon-columns menu-icon"></i>
               <span class="menu-title">Form elements</span>
@@ -99,6 +99,6 @@
               <i class="icon-paper menu-icon"></i>
               <span class="menu-title">Documentation</span>
             </a>
-          </li>
+          </li> --}}
         </ul>
       </nav>
