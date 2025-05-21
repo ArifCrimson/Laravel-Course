@@ -16,18 +16,20 @@
     </div>
 </x-app-layout> --}}
 <html>
+
+{{-- partials header contains html header contents --}}
 @include('partials.header')
 
 <body>
     <div class="container-scroller">
-        <!-- partial:partials/_navbar.html -->
+        <!-- partial:partials/navbar.blade.php -->
         @include('partials.navbar')
         <!-- partial -->
         <div class="container-fluid page-body-wrapper">
-            <!-- partial:partials/_settings-panel.html -->
+            <!-- partial:partials/settingspanel.blade.php -->
             @include('partials.settingspanel')
             <!-- partial -->
-            <!-- partial:partials/_sidebar.html -->
+            <!-- partial:partials/sidebar.blade.php -->
             @include('partials.sidebar')
             <!-- partial -->
             <div class="main-panel">
@@ -844,7 +846,7 @@
                     </div> --}}
                 </div>
                 <!-- content-wrapper ends -->
-                <!-- partial:partials/_footer.html -->
+                <!-- partial:partials/footer.blade.php -->
                 @include('partials.footer')
                 <!-- partial -->
             </div>
@@ -854,7 +856,7 @@
     </div>
     <!-- container-scroller -->
 
-    <!-- plugins:js -->
+    <!-- plugins.blade.php -->
     @include('partials.plugins')
     <!-- End custom js for this page-->
 </body>
